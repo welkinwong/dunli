@@ -1,0 +1,162 @@
+.row1 {
+  min-width: 1300px;
+  height: 870px;
+  background-color: #fef9f5;
+  background-image: url("./images/conactus-row1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.row2 {
+  background-color: #f7f1ed;
+}
+
+.row2 .content {
+  height: 790px;
+  padding-top: 60px;
+  position: relative;
+  background-color: #f7f1ed;
+}
+
+.jcImgScroll{position:relative;height:540px;margin:20px auto 0 auto;}
+.jcImgScroll li{border:1px solid #ccc;}
+.jcImgScroll li a{background:#fff;display:block;position:relative;z-index:99;}
+
+.jcImgScroll li img,.jcImgScroll li,.jcImgScroll em,.jcImgScroll dl{display:none;border:0 none;}
+.jcImgScroll li img{width: 100%;height: 100%;}
+.jcImgScroll em.sPrev{
+  left: 0!important;
+  width: 50%!important;
+  height: 100%!important;
+}
+.jcImgScroll em.sNext{
+  left: 50%!important;
+  width: 50%!important;
+  height: 100%!important;
+}
+.jcImgScroll dl dd{background:url(images/NumBtn.png) no-repeat 0 bottom;text-indent:-9em;}
+.jcImgScroll dl dd:hover,.jcImgScroll dl dd.curr{background-position:0 0;}
+
+.row2 .content .toptext {
+  color: #837a75;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Bodoni 72";
+}
+
+.row2 .content .maintext {
+  font-size: 14px;
+  color: #9f9793;
+  text-align: center;
+}
+
+.row3 .content {
+  height: 460px;
+  padding-top: 60px;
+  position: relative;
+}
+
+.row3 .content .toptext {
+  font-size: 14px;
+  color: #d6cec9;
+  text-align: center;
+}
+
+.row3 .content .maintext {
+  color: #837a75;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Bodoni 72";
+}
+
+.row3 .content .bottomtext {
+  font-size: 30px;
+  color: #837a75;
+  text-align: center;
+}
+
+.row3 .content .conact {
+  display: block;
+  width: 290px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  margin: 160px auto 0;
+  background-color: #e6bca3;
+  box-shadow: 8px 8px 32px 0 rgba(230, 188, 163, 0.7);
+}
+
+.row4 {
+  background: #fbf8f6;
+}
+
+.row4 .content {
+  height: 944px;
+  padding-top: 100px;
+  position: relative;
+  background: #fbf8f6;
+}
+
+.row4 .content .toptext {
+  font-size: 12px;
+  color: #d6cec9;
+  text-align: center;
+  font-family: "Avenir Next";
+}
+
+.row4 .content .maintext {
+  font-size: 50px;
+  color: #e6bca3;
+  text-align: center;
+  font-family: "Bodoni 72";
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.row4 .content .conactus {
+  width: 192px;
+  height: 50px;
+  border: 1px solid #e6bca3;
+  text-align: center;
+  font-size: 20px;
+  color: #e6bca3;
+  line-height: 50px;
+  display: block;
+  margin: 50px auto 0;
+}
+
+.row4 .content .map {
+  width: 100%;
+  height: 562px;
+  background-image: url("./images/map.jpg");
+  position: absolute;
+  bottom: 0;
+}
+
+.row4 .content .map .point {
+  width: 504px;
+  height: 176px;
+  margin-top: 152px;
+  margin-left: 640px;
+  padding: 52px;
+  color: #f5ebe5;
+  background-image: url("./images/pointbox.png");
+}
+
+.row4 .content .map .point .pointtext {
+  background-image: url("./images/pin.png");
+  background-repeat: no-repeat;
+  background-size: 10px 16px;
+  line-height: 16px;
+  text-indent: 20px;
+}
+
+.row4 .content .map .point .pointmaintext {
+  margin-top: 10px;
+  font-size: 25px;
+}

@@ -1,0 +1,349 @@
+.row1 {
+  background-color: #fef9f5;
+}
+
+.row1 .content {
+  height: 872px;
+  background-image: url("./images/home-row1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-color: #fef9f5;
+}
+
+.row1 .content .more {
+  display: block;
+  position: absolute;
+  top: 704px;
+  left: 50%;
+  margin-left: -155px;
+  width: 310px;
+  height: 58px;
+  text-align: center;
+  line-height: 58px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #e6bca3;
+  box-shadow: 10px 10px 47px 0px rgba(70, 66, 61, 0.25);
+}
+
+.row2 .content {
+  height: 760px;
+  padding: 0 20px;
+  background-image: url("./images/home-row2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding-top: 176px;
+}
+
+.row2 .content .top {
+  font-family: "Avenir Next";
+  color: #d6cec9;
+  font-size: 12px;
+}
+
+.row2 .content h2 {
+  font-family: "Bodoni 72";
+  font-weight: bold;
+  font-size: 50px;
+  color: #837a75;
+  line-height: 100px;
+}
+
+.row2 .content .main {
+  width: 508px;
+  font-size: 14px;
+  line-height: 25px;
+  color: #9f9793;
+}
+
+.row3 {
+  background: #fbf8f6;
+}
+
+.row3 .content {
+  height: 760px;
+  padding: 0 20px;
+  position: relative;
+  padding-top: 100px;
+  background: #fbf8f6;
+}
+
+.row3 .content .textimage {
+  position: absolute;
+  width: 12px;
+  height: 169px;
+  background-image: url("./images/home-row3-text.png");
+  background-repeat: no-repeat;
+  top: 104px;
+  left: 138px;
+}
+
+.row3 .content .toptext {
+  color: #d6cec9;
+  font-size: 12px;
+  text-align: center;
+}
+
+.row3 .content .maintext {
+  color: #837a75;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.row3 .content .line {
+  width: 63px;
+  height: 4px;
+  background-image: url("./images/line.png");
+  margin: 38px auto 14px;
+}
+
+.row3 .content .peoper {
+  margin-top: 60px;
+}
+
+.row3 .content .peoper .avator {
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #eed4c4;
+  margin: 0 auto;
+}
+
+.row3 .content .peoper li {
+  width: 300px;
+  height: 336px;
+  list-style: none;
+  float: left;
+  margin: 0 48px;
+  text-align: center;
+  background-image: url("./images/star.png");
+  background-repeat: no-repeat;
+  background-size: 112px 17px;
+  background-position: center bottom;
+}
+
+.row3 .content .peoper li:last-child {
+  margin-right: 0;
+}
+
+.row3 .content .peoper .name {
+  font-size: 20px;
+  color: #d6cec9;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.row3 .content .peoper .title {
+  color: #9f9793;
+  font-size: 26px;
+  line-height: 60px;
+}
+
+.row3 .content .peoper .description {
+  font-size: 12px;
+  color: #9f9793;
+  line-height: 24px;
+}
+
+.row3 .content .peoper .star {
+  width: 112px;
+  height: 17px;
+  background-image: url("./images/star.png");
+  background-repeat: no-repeat;
+  margin: 40px auto 0;
+}
+
+.row3 .content .bottomButton {
+  display: block;
+  width: 230px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  bottom: -25px;
+  margin-left: -115px;
+  box-shadow: 8px 8px 32px 0 rgba(230, 188, 163, 0.7);
+  background-color: #e6bca3;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  z-index: 800;
+}
+
+.row4 .content {
+  height: 1136px;
+  padding: 100px 20px 0;
+  position: relative;
+  background: #ffffff;
+}
+
+.row4 .content .textimage {
+  position: absolute;
+  width: 47px;
+  height: 409px;
+  background-image: url("./images/home-row4-text.png");
+  background-repeat: no-repeat;
+  top: 164px;
+  left: 0;
+}
+
+.row4 .content .toptext {
+  color: #d6cec9;
+  font-size: 14px;
+  text-align: center;
+}
+
+.row4 .content .maintext {
+  color: #837a75;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Bodoni 72";
+  font-weight: bold;
+}
+
+.row4 .content .line {
+  width: 63px;
+  height: 4px;
+  background-image: url("./images/line.png");
+  margin: 38px auto 14px;
+}
+
+.row4 .content .contenttext {
+  color: #9f9793;
+  font-size: 16px;
+  text-align: center;
+  line-height: 36px;
+}
+
+.row4 .content .people {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.row4 .content .people .people1 {
+  width: 318px;
+  height: 346px;
+  margin-left: 76px;
+  margin-top: 54px;
+  float: left;
+  background-image: url("./images/people1.jpg");
+}
+
+.row4 .content .people .people2 {
+  width: 317px;
+  height: 346px;
+  margin-left: 63px;
+  float: left;
+  background-image: url("./images/people2.jpg");
+}
+
+.row4 .content .people .people3 {
+  width: 319px;
+  margin-left: 62px;
+  margin-top: 18px;
+  float: left;
+}
+
+.row4 .content .people .people3 .peopleimage {
+  width: 100%;
+  height: 347px;
+  background-image: url("./images/people3.jpg");
+}
+
+.row4 .content .people .people3 .text {
+  font-size: 18px;
+  color: #9f9793;
+  line-height: 25px;
+  margin-top: 24px;
+  margin-left: 60px;
+  position: relative;
+}
+
+.row4 .content .people .people3 .morevv {
+  width: 290px;
+  height: 50px;
+  background-color: #e6bca3;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  display: block;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 66px;
+}
+
+.row5 {
+  background: #fbf8f6;
+}
+
+.row5 .content {
+  height: 944px;
+  padding-top: 100px;
+  position: relative;
+  background: #fbf8f6;
+}
+
+.row5 .content .toptext {
+  font-size: 12px;
+  color: #d6cec9;
+  text-align: center;
+  font-family: "Avenir Next";
+}
+
+.row5 .content .maintext {
+  font-size: 50px;
+  color: #e6bca3;
+  text-align: center;
+  font-family: "Bodoni 72";
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.row5 .content .conactus {
+  width: 192px;
+  height: 50px;
+  border: 1px solid #e6bca3;
+  text-align: center;
+  font-size: 20px;
+  color: #e6bca3;
+  line-height: 50px;
+  display: block;
+  margin: 50px auto 0;
+}
+
+.row5 .content .map {
+  width: 100%;
+  height: 562px;
+  background-image: url("./images/map.jpg");
+  position: absolute;
+  bottom: 0;
+}
+
+.row5 .content .map .point {
+  width: 504px;
+  height: 176px;
+  margin-top: 152px;
+  margin-left: 640px;
+  padding: 52px;
+  color: #f5ebe5;
+  background-image: url("./images/pointbox.png");
+}
+
+.row5 .content .map .point .pointtext {
+  background-image: url("./images/pin.png");
+  background-repeat: no-repeat;
+  background-size: 10px 16px;
+  line-height: 16px;
+  text-indent: 20px;
+}
+
+.row5 .content .map .point .pointmaintext {
+  margin-top: 10px;
+  font-size: 25px;
+}

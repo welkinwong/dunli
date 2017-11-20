@@ -1,0 +1,372 @@
+.row1 {
+  min-width: 1300px;
+  height: 870px;
+  background-color: #fef9f5;
+  background-image: url("./images/dianyu-row1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.row1 .more {
+  display: block;
+  position: absolute;
+  top: 704px;
+  left: 50%;
+  margin-left: -155px;
+  width: 310px;
+  height: 58px;
+  text-align: center;
+  line-height: 58px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #e6bca3;
+  box-shadow: 10px 10px 47px 0px rgba(70, 66, 61, 0.25);
+}
+
+.row2 .content {
+  height: 756px;
+  padding: 0 20px 0 642px;
+  padding-top: 116px;
+  position: relative;
+  background-image: url("../assets/images/dianyu-row2-logo.png");
+  background-repeat: no-repeat;
+  background-size: 192px 152px;
+  background-position: right 532px;
+}
+
+.row2 .content .founder {
+  display: block;
+  width: 456px;
+  height: 582px;
+  position: absolute;
+  top: 98px;
+  left: 58px;
+  box-shadow: 14px 14px 47px 0 rgba(70, 66, 61, 0.33);
+}
+
+
+.row2 .content .top {
+  font-family: "Avenir Next";
+  color: #d6cec9;
+  font-size: 12px;
+  text-align: right;
+}
+
+.row2 .content h2 {
+  font-family: "Bodoni 72";
+  font-weight: bold;
+  font-size: 50px;
+  color: #837a75;
+  margin-top: 25px;
+  text-align: right;
+}
+
+.row2 .content .main {
+  font-size: 14px;
+  line-height: 25px;
+  color: #9f9793;
+  margin-top: 56px;
+}
+
+.row3 {
+  background: #fbf8f6;
+}
+
+.row3 .content {
+  height: 760px;
+  padding: 0 20px;
+  position: relative;
+  padding-top: 100px;
+  background: #fbf8f6;
+}
+
+.row3 .content .textimage {
+  position: absolute;
+  width: 12px;
+  height: 169px;
+  background-image: url("./images/home-row3-text.png");
+  background-repeat: no-repeat;
+  top: 104px;
+  left: 138px;
+}
+
+.row3 .content .toptext {
+  color: #d6cec9;
+  font-size: 12px;
+  text-align: center;
+}
+
+.row3 .content .maintext {
+  color: #837a75;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.row3 .content .line {
+  width: 63px;
+  height: 4px;
+  background-image: url("./images/line.png");
+  margin: 38px auto 14px;
+}
+
+.row3 .content .peoper {
+  margin-top: 60px;
+}
+
+.row3 .content .peoper .avator {
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #eed4c4;
+  margin: 0 auto;
+}
+
+.row3 .content .peoper li {
+  width: 300px;
+  height: 336px;
+  list-style: none;
+  float: left;
+  margin: 0 48px;
+  text-align: center;
+  background-image: url("./images/star.png");
+  background-repeat: no-repeat;
+  background-size: 112px 17px;
+  background-position: center bottom;
+}
+
+.row3 .content .peoper li:last-child {
+  margin-right: 0;
+}
+
+.row3 .content .peoper .name {
+  font-size: 20px;
+  color: #d6cec9;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.row3 .content .peoper .title {
+  color: #9f9793;
+  font-size: 26px;
+  line-height: 60px;
+}
+
+.row3 .content .peoper .description {
+  font-size: 12px;
+  color: #9f9793;
+  line-height: 24px;
+}
+
+.row3 .content .peoper .star {
+  width: 112px;
+  height: 17px;
+  background-image: url("./images/star.png");
+  background-repeat: no-repeat;
+  margin: 40px auto 0;
+}
+
+.row4 .content {
+  height: 894px;
+  padding-top: 68px;
+  position: relative;
+  background: #ffffff;
+}
+
+.row4 .content .banner {
+  width: 100%;
+  height: 499px;
+  background-image: url("./images/dianyu-row4-image.jpg");
+  background-repeat: no-repeat;
+}
+
+.row4 .content .bannertext {
+  position: absolute;
+  width: 100%;
+  top: 530px;
+  font-size: 50px;
+  color: #b57d4f;
+  text-align: center;
+  font-family: "Bodoni 72";
+  font-weight: bold;
+  z-index: 800;
+}
+
+.row4 .content .toptext {
+  color: #847a75;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 65px;
+}
+
+.row4 .content .contenttext {
+  color: #847a75;
+  font-size: 18px;
+  text-align: center;
+  line-height: 34px;
+}
+
+.row4 .content .proxy {
+  display: block;
+  color: #fff;
+  width: 290px;
+  height: 50px;
+  background-color: #e6bca3;
+  box-shadow: 8px 8px 32px 0 rgba(230, 188, 163, 0.7);
+  line-height: 50px;
+  text-align: center;
+  margin: 45px auto 0;
+}
+
+.row5 .content {
+  height: 860px;
+  padding-top: 38px;
+  position: relative;
+  background: #ffffff;
+}
+
+.row5 .content .left {
+  width: 635px;
+  float: left;
+}
+
+.row5 .content img {
+  width: 100%;
+  height: 570px;
+}
+
+.row5 .content .right {
+  width: 635px;
+  float: right;
+}
+
+.row5 .content .title {
+  font-size: 62px;
+  line-height: 73px;
+  color: #b57d4f;
+  font-family: "Bodoni 72";
+  text-align: center;
+  margin-top: -30px;
+}
+
+.row5 .content .text {
+  color: #847a75;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 14px;
+}
+
+.row6 {
+  background-color: #f7f1ed;
+}
+
+.row6 .content {
+  height: 596px;
+  padding-top: 40px;
+  position: relative;
+  background-color: #f7f1ed;
+}
+
+.row6 .content .toptext {
+  color: #b57d4f;
+  font-size: 20px;
+  text-align: center;
+}
+
+.row6 .content .contenttext {
+  color: #6a5e5d;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.row6 .content .left,
+.row6 .content .mid,
+.row6 .content .right {
+  float: left;
+}
+
+.row6 .content .left {
+  margin-left: 128px;
+}
+
+.row6 .content .mid {
+  margin-left: 70px;
+}
+
+.row6 .content .right {
+  margin-left: 70px;
+}
+
+.row6 .content img {
+  width: 300px;
+  height: 320px;
+}
+
+.row6 .content .text {
+  font-size: 14px;
+  color: #b57d4f;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.row7 .content {
+  height: 596px;
+  padding-top: 40px;
+  position: relative;
+  background-color: #fff;
+}
+
+.row7 .content .toptext {
+  color: #b57d4f;
+  font-size: 20px;
+  text-align: center;
+}
+
+.row7 .content .contenttext {
+  color: #6a5e5d;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.row7 .content .left,
+.row7 .content .right {
+  float: left;
+}
+
+.row7 .content .left {
+  margin-left: 274px;
+}
+
+.row7 .content .right {
+  margin-left: 150px;
+}
+
+.row7 .content img {
+  width: 300px;
+  height: 320px;
+  box-shadow: 0px 3px 95px 0px rgba(106, 94, 93, 0.23);
+}
+
+.row7 .content .text {
+  font-size: 14px;
+  color: #b57d4f;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.row8 {
+  background-color: #edd0c9;
+}
+
+.row8 .content {
+  height: 572px;
+  background-image: url("../assets/images/dianyu-row8-bg.jpg");
+}

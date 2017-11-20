@@ -1,0 +1,148 @@
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+.clearfix:after {
+  clear: both;
+}
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.invisible {
+  visibility: hidden;
+}
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.hidden {
+  display: none !important;
+}
+.affix {
+  position: fixed;
+}
+.container {
+  width: 100%;
+}
+.container .content {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.navigation {
+  position: absolute;
+  top: 0;
+  height: 110px;
+  z-index: 900;
+}
+
+.navigation .content {
+  height: 110px;
+  padding: 32px 0;
+}
+
+.navigation .content .logo {
+  width: 244px;
+  height: 46px;
+  background-image: url("./images/logo.png");
+}
+
+.navigation .content .nav-list {
+  font-size: 18px;
+}
+
+.navigation .content .nav-list li {
+  float: left;
+  list-style: none;
+  line-height: 46px;
+  margin: 0 20px;
+}
+
+.navigation .content .nav-list li.active {
+  border-bottom: 1px solid #dc9d78;
+}
+
+.navigation .content .nav-list li.join {
+  background: #e6bca3;
+  padding: 0 40px;
+  box-shadow: 8px 8px 32px 0px rgba(230, 188, 163, 0.7);
+}
+
+.navigation .content .nav-list li.join a {
+  color: #fff;
+}
+
+.navigation .content .nav-list li a {
+  color: #e6bca3;
+}
+
+.footer {
+  width: 100%;
+  background-color: #be8563;
+}
+
+.footer .content {
+  width: 1300px;
+  height: 615px;
+  color: #fff;
+  padding-top: 110px;
+  background-color: #be8563;
+}
+
+.footer .content .list {
+  width: 534px;
+  float: left;
+}
+
+.footer .content .list .title {
+  font-size: 16px;
+}
+
+.footer .content .list .listcontent {
+  margin-top: 40px;
+  font-size: 14px;
+  line-height: 36px;
+}
+
+.footer .content .list2 {
+  float: left;
+}
+
+.footer .content .list2 .title {
+  font-size: 16px;
+  letter-spacing: 8px;
+}
+
+.footer .content .list2 .qrcode {
+  display: block;
+  width: 191px;
+  height: 192px;
+  margin-top: 14px;
+}
+
+.footer .content .copyright {
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, .5);
+  padding-top: 20px;
+  text-align: center;
+  line-height: 36px;
+  margin-top: 80px;
+}
