@@ -1,3 +1,13 @@
+@font-face{
+  src:url("Bodoni 72.ttc");
+  font-family: webfont;
+}
+
+@font-face{
+  src:url("Avenir Next.ttc");
+  font-family: webfont;
+}
+
 .clearfix:before,
 .clearfix:after {
   display: table;
