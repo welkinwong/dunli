@@ -28,10 +28,8 @@
   font-weight: bold;
 }
 
-.row2 .content img {
+.row2 .content iframe {
   display: block;
-  width: 1046px;
-  height: 579px;
   margin: 20px auto 0;
 }
 
